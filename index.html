@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best и Я</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 <body>
     <header class="header">
@@ -15,9 +16,9 @@
                         <img src="img/logo.png" alt="логотип" width="150px" height="80px">
                     </div>
                     <nav class="menu__nav">
-                        <a href="" class="menu__link">Услуги</a>
-                        <a href="" class="menu__link">Акции</a>
-                        <a href="" class="menu__link">Контакты</a>
+                        <a href="#" class="menu__link">Услуги</a>
+                        <a href="#" class="menu__link">Акции</a>
+                        <a href="#" class="menu__link">Контакты</a>
                     </nav>
                     <!--/.menu__nav-->
                     <div class="menu__information">
@@ -118,34 +119,85 @@
         <!-- /.discounts -->
         <section class="special">
             <div class="container">
-                <div class="special-block">
-                    <div class="special-block__image">
-                        <img src="img/5.jpg" alt="image" width="460" height="306">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="special-block">
+                                <div class="special-block__image">
+                                    <img src="img/5.jpg" alt="image" width="460" height="306">
+                                </div>
+                                <!-- /.special-block__image -->
+                                <div class="special-block__text">
+                                    <h3 class="special-block__title">15 % скидка на все услуги в ваш <br> день рождения</h3>
+                                    <p class="special-block__description">День рождения — прекрасный повод сделать <br> себе подарок и записаться на уходовую <br> процедуру. Скидка действует 3 дня до и 3 дня <br> после вашего дня рождения.</p>
+                                </div>
+                                <!-- /.special-block__text -->
+                            </div>
+                            <!-- /.special-block -->
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="special-block">
+                                <div class="special-block__image">
+                                    <img src="img/1.jpg" alt="image" width="460" height="306">
+                                </div>
+                                <!-- /.special-block__image -->
+                                <div class="special-block__text">
+                                    <h3 class="special-block__title">Скидка 10 % на все инъекционные <br> услуги до 1 июня</h3>
+                                    <p class="special-block__description">В акцию входят все инъекционные услуги: <br> биоревитализация, ботулинотерапия, <br> плазмотерапия, коллагенотерапия, мезотерапия и озонотерапия.</p>
+                                </div>
+                                <!-- /.special-block__text -->
+                            </div>
+                            <!-- /.special-block -->
+                        </div>
                     </div>
-                    <!-- /.special-block__image -->
-                    <div class="special-block__text">
-                        <h3 class="special-block__title">15 % скидка на все услуги в ваш <br> день рождения</h3>
-                        <p class="special-block__description">День рождения — прекрасный повод сделать <br> себе подарок и записаться на уходовую <br> процедуру. Скидка действует 3 дня до и 3 дня <br> после вашего дня рождения.</p>
-                    </div>
-                    <!-- /.special-block__text -->
+                    <!-- If we need pagination -->
+                    <div class="special-pagination"></div>
                 </div>
-                <!-- /.special-block -->
-                <div class="special-block__second">
-                    <div class="special-block__image">
-                        <img src="img/1.jpg" alt="image" width="460" height="306">
-                    </div>
-                    <!-- /.special-block__image -->
-                    <div class="special-block__text">
-                        <h3 class="special-block__title">Скидка 10 % на все инъекционные <br> услуги до 1 июня</h3>
-                        <p class="special-block__description">В акцию входят все инъекционные услуги: <br> биоревитализация, ботулинотерапия, <br> плазмотерапия, коллагенотерапия, мезотерапия и озонотерапия.</p>
-                    </div>
-                    <!-- /.special-block__text -->
-                </div>
-                <!-- /.special-block -->
             </div>
             <!-- /.container -->
         </section>
         <!-- /.special -->
+        <section class="feedback section">
+            <div class="container">
+                <div class="feedback-title">Отзывы наших клиентов</div>
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="feedback-block">
+                                <div class="feedback-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta officia fugiat, quia neque tenetur facere eos assumenda quisquam ratione perspiciatis tempora eveniet maiores consequatur autem repudiandae commodi deserunt ipsa.</div>
+                                <div class="feedback-avatar"></div>
+                                <div class="feedback-avatar-info">Имя Фамилия</div>
+                            </div>
+                            <!-- /.feedback-block -->
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="feedback-block">
+                                <div class="feedback-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta officia fugiat, quia neque tenetur facere eos assumenda quisquam ratione perspiciatis tempora eveniet maiores consequatur autem repudiandae commodi deserunt ipsa.</div>
+                                <div class="feedback-avatar"></div>
+                                <div class="feedback-avatar-info">Имя Фамилия</div>
+                            </div>
+                            <!-- /.feedback-block -->
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="feedback-block">
+                                <div class="feedback-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta officia fugiat, quia neque tenetur facere eos assumenda quisquam ratione perspiciatis tempora eveniet maiores consequatur autem repudiandae commodi deserunt ipsa.</div>
+                                <div class="feedback-avatar"></div>
+                                <div class="feedback-avatar-info">Имя Фамилия</div>
+                            </div>
+                            <!-- /.feedback-block -->
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="special-pagination"></div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.feedback section -->
         <section class="form">
             <div class="bg-dark">
             <div class="container">
@@ -214,5 +266,8 @@
         <!-- /.footer -->
     </main>
     <!-- /.sections -->
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

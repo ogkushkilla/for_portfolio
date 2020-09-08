@@ -166,15 +166,6 @@
   margin-bottom: 70px;
 }
 
-.special-block__second {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .special-block__text {
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
@@ -189,6 +180,35 @@
 
 .special-block__description {
   font-size: 22px;
+}
+
+.special-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.special-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #da0c0c;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.special-bullet-active {
+  width: 10px;
+  height: 10px;
+  background-color: #da0c0c;
+  border-radius: 50%;
 }
 
 .form {
@@ -357,5 +377,41 @@
 .footer__mail {
   display: block;
   margin-bottom: 20px;
+}
+
+.feedback {
+  margin-bottom: 100px;
+}
+
+.feedback-title {
+  font-size: 45px;
+  margin-bottom: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feedback-description {
+  margin: 0 auto;
+  max-width: 650px;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feedback-avatar {
+  width: 130px;
+  height: 130px;
+  background: url(../img/avatar.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.feedback-avatar-info {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
