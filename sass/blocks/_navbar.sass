@@ -13,8 +13,22 @@
     color: white
 .menu
     &__link
+        position: relative
         text-decoration: none
         color: white
         margin-left: 30px
+    &__link:after
+        position: absolute
+        bottom: -5px
+        left: 0
+        content: ''
+        width: 100%
+        height: 2px
+        background-color: #fff
+        opacity: 0
+        transition: 0.3s
+    &__link:hover:after
+        opacity: 1
+        transition: 0.3s
     &__information
         text-align: right
